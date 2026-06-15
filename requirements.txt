@@ -1,0 +1,12 @@
+# Tamil ASR Streamlit app — Python 3.10+
+# Note: MP3/M4A decoding additionally requires ffmpeg on the host
+# (e.g. `sudo apt install ffmpeg`).
+
+streamlit>=1.36
+torch>=2.1
+transformers>=4.40,<5
+peft>=0.10
+accelerate>=0.30
+librosa>=0.10
+soundfile>=0.12
+numpy>=1.24
